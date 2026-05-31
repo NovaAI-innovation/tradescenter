@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TradesCenter Design Preview</title>
+    <link rel="stylesheet" href="./design-preview.css" />
+  </head>
+  <body>
+    <main class="preview-shell">
+      <header class="topbar">
+        <a class="brand" href="#">
+          <span class="brand-mark">TC</span>
+          <span>TradesCenter</span>
+        </a>
+        <nav aria-label="Preview navigation">
+          <a href="#">Verified Work</a>
+          <a href="#">Get Inspired</a>
+          <a href="#">Contractors</a>
+        </nav>
+        <button class="ghost-button">Sign in</button>
+      </header>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Verified local renovation work</p>
+          <h1>Find contractors by proof, not ads.</h1>
+          <p class="lede">
+            Browse completed projects, compare verified work, and contact contractors with
+            confidence before the first site visit.
+          </p>
+          <form class="search-panel">
+            <label>
+              <span>Project type</span>
+              <input value="Kitchen renovation" aria-label="Project type" />
+            </label>
+            <label>
+              <span>Location</span>
+              <input value="Airdrie, AB" aria-label="Location" />
+            </label>
+            <button type="button">Find verified work</button>
+          </form>
+        </div>
+
+        <aside class="hero-proof" aria-label="Proof of work graph preview">
+          <div class="graph-card">
+            <p class="card-label">Proof graph</p>
+            <svg viewBox="0 0 420 180" role="img" aria-label="Contractor proof graph">
+              <path d="M54 92H152L252 52H360" />
+              <path d="M152 92L252 132H360" />
+              <circle cx="54" cy="92" r="13" class="node trust" />
+              <circle cx="152" cy="92" r="13" class="node action" />
+              <circle cx="252" cy="52" r="13" class="node info" />
+              <circle cx="252" cy="132" r="13" class="node info" />
+              <circle cx="360" cy="52" r="13" class="node dark" />
+              <circle cx="360" cy="132" r="13" class="node dark" />
+              <text x="32" y="124">Client</text>
+              <text x="120" y="124">Project</text>
+              <text x="219" y="35">Review</text>
+              <text x="218" y="164">Media</text>
+              <text x="318" y="35">Contractor</text>
+              <text x="328" y="164">Trade</text>
+            </svg>
+          </div>
+          <div class="trust-strip">
+            <span>18 verified projects</span>
+            <span>9 kitchen reviews</span>
+            <span>1 business day response</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section-head">
+        <p class="eyebrow">Sample surfaces</p>
+        <h2>Quiet evidence, clear decisions.</h2>
+      </section>
+
+      <section class="card-grid">
+        <article class="contractor-card">
+          <div class="card-topline">
+            <span class="badge verified">
+              <span class="badge-dot"></span>
+              Verified company
+            </span>
+            <span class="distance">24 km</span>
+          </div>
+          <h3>Northline Cabinetry</h3>
+          <p class="muted">Custom cabinets · Calgary / Airdrie</p>
+          <div class="proof-list">
+            <div>
+              <strong>18</strong>
+              <span>completed showcases</span>
+            </div>
+            <div>
+              <strong>9</strong>
+              <span>reviewed kitchen projects</span>
+            </div>
+            <div>
+              <strong>4.8</strong>
+              <span>quality score</span>
+            </div>
+          </div>
+          <div class="card-note">
+            Strong signal in built-ins, kitchen cabinetry, and finish carpentry.
+          </div>
+          <button class="primary-button">View proof</button>
+        </article>
+
+        <article class="showcase-card">
+          <div class="showcase-media">
+            <div class="before-after">
+              <span>Before</span>
+              <span>After</span>
+            </div>
+          </div>
+          <div class="showcase-body">
+            <span class="badge brass">Showcase</span>
+            <h3>Stone, oak, and concealed storage</h3>
+            <p class="muted">
+              Kitchen renovation · Airdrie · Attached to verified contractor profile
+            </p>
+          </div>
+        </article>
+
+        <article class="status-card">
+          <p class="card-label">Verification states</p>
+          <ul>
+            <li><span class="status verified"></span> Insurance verified</li>
+            <li><span class="status pending"></span> License review pending</li>
+            <li><span class="status neutral"></span> Project evidence attached</li>
+            <li><span class="status danger"></span> Credential expired</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="palette">
+        <div class="swatch graphite"><span>Graphite</span><code>#171A1C</code></div>
+        <div class="swatch plaster"><span>Warm Plaster</span><code>#F6F3ED</code></div>
+        <div class="swatch limestone"><span>Limestone</span><code>#E7E1D6</code></div>
+        <div class="swatch mortar"><span>Mortar</span><code>#C9C1B4</code></div>
+        <div class="swatch oxide"><span>Oxide Green</span><code>#46594F</code></div>
+        <div class="swatch brass"><span>Muted Brass</span><code>#B08A4A</code></div>
+        <div class="swatch slate"><span>Blue Slate</span><code>#607D8B</code></div>
+        <div class="swatch clay"><span>Clay</span><code>#A85F4F</code></div>
+      </section>
+    </main>
+  </body>
+</html>

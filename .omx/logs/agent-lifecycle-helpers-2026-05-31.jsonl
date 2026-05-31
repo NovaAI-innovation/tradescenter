@@ -1,0 +1,89 @@
+{"ts":"2026-05-31T21:11:58.935Z","level":"info","event":"session-start","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:11:59.116Z","level":"info","event":"session-start","message":"extension completed","extension":"context-memory"}
+{"ts":"2026-05-31T21:11:59.117Z","level":"info","event":"session-start","message":"router dispatch complete","matched":["context-memory"]}
+{"ts":"2026-05-31T21:11:59.305Z","level":"info","event":"user-prompt-submit","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:11:59.598Z","level":"info","event":"user-prompt-submit","message":"extension completed","extension":"context-memory"}
+{"ts":"2026-05-31T21:11:59.598Z","level":"info","event":"user-prompt-submit","message":"router dispatch complete","matched":["context-memory"]}
+{"ts":"2026-05-31T21:12:05.121Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:05.181Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:05.250Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:05.250Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:05.311Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:05.312Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:06.121Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:06.161Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:06.257Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:06.258Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:06.294Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:06.295Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:13.117Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:13.216Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:13.216Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:13.234Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:13.338Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:13.339Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:13.446Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:13.447Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:13.453Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:13.454Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:13.470Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:13.471Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:14.037Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:14.144Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:14.220Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:14.240Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:14.278Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:14.279Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:14.388Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:14.389Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:14.464Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:14.465Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:14.483Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:14.484Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:23.268Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:23.269Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:23.269Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:23.425Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:23.425Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:23.427Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:23.427Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:23.442Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:23.442Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:23.889Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:23.900Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:23.920Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:24.055Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:24.056Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:24.066Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:24.067Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:24.086Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:24.086Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:39.597Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:39.719Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:39.719Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:40.145Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:40.269Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:40.269Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:45.706Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:45.707Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:45.707Z","level":"info","event":"pre-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:45.863Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:45.864Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:45.864Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:45.866Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:45.879Z","level":"info","event":"pre-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:45.880Z","level":"info","event":"pre-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:46.436Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:46.499Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:46.529Z","level":"info","event":"post-tool-use","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:46.611Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:46.612Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:46.679Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:46.680Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:46.714Z","level":"info","event":"post-tool-use","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:46.715Z","level":"info","event":"post-tool-use","message":"router dispatch complete","matched":["git-automation"]}
+{"ts":"2026-05-31T21:12:57.570Z","level":"info","event":"stop","message":"router dispatch start","sessionId":"019e7fe0-571b-7462-8720-f047eaf70e8e"}
+{"ts":"2026-05-31T21:12:57.825Z","level":"info","event":"stop","message":"extension completed","extension":"context-memory"}
+{"ts":"2026-05-31T21:12:57.826Z","level":"info","event":"stop","message":"auto-git policy disabled"}
+{"ts":"2026-05-31T21:12:57.915Z","level":"info","event":"stop","message":"extension completed","extension":"git-automation"}
+{"ts":"2026-05-31T21:12:57.916Z","level":"info","event":"stop","message":"router dispatch complete","matched":["context-memory","git-automation"]}

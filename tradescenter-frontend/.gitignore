@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.vite/
+coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs and diagnostics
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Caches and local tooling state
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.turbo/
+.playwright/
+.playwright-cli/
+.omx/
+
+# Test artifacts
+playwright-report/
+test-results/
+
+# Editors and OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo

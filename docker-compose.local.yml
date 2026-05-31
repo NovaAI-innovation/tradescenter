@@ -1,0 +1,79 @@
+services:
+  supabase-db:
+    image: postgres:15-alpine
+    container_name: tradescenter-supabase-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${LOCAL_SUPABASE_DB:-postgres}
+      POSTGRES_USER: ${LOCAL_SUPABASE_DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${LOCAL_SUPABASE_DB_PASSWORD:-postgres}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    volumes:
+      - supabase_db_data:/var/lib/postgresql/data
+      - ./tradescenter-backend/supabase/00-local-roles.sql:/docker-entrypoint-initdb.d/00-local-roles.sql:ro
+      - ./tradescenter-backend/supabase/schema.sql:/docker-entrypoint-initdb.d/10-schema.sql:ro
+      - ./tradescenter-backend/supabase/migrations/20260423_01_platform_v15_identity_billing_verification.sql:/docker-entrypoint-initdb.d/20-platform-v15.sql:ro
+      - ./tradescenter-backend/supabase/migrations/20260423_02_reconcile_missing_tables.sql:/docker-entrypoint-initdb.d/30-reconcile-missing-tables.sql:ro
+    networks:
+      - internal
+
+
+
+  supabase-rest:
+    image: postgrest/postgrest:v14.8
+    container_name: tradescenter-supabase-rest
+    restart: unless-stopped
+    depends_on:
+      supabase-db:
+        condition: service_healthy
+    expose:
+      - "3000"
+    environment:
+      PGRST_DB_URI: postgres://authenticator:postgres@supabase-db:5432/${LOCAL_SUPABASE_DB:-postgres}
+      PGRST_DB_SCHEMAS: public
+      PGRST_DB_ANON_ROLE: anon
+      PGRST_DB_USE_LEGACY_GUCS: "false"
+      PGRST_JWT_SECRET: ${LOCAL_SUPABASE_JWT_SECRET:-tradescenter-local-jwt-secret-with-at-least-32-chars}
+      PGRST_APP_SETTINGS_JWT_SECRET: ${LOCAL_SUPABASE_JWT_SECRET:-tradescenter-local-jwt-secret-with-at-least-32-chars}
+      PGRST_APP_SETTINGS_JWT_EXP: ${LOCAL_SUPABASE_JWT_EXP:-4102444800}
+    networks:
+      - internal
+
+  supabase-api:
+    image: nginx:1.27-alpine
+    container_name: tradescenter-supabase-api
+    restart: unless-stopped
+    depends_on:
+      supabase-rest:
+        condition: service_started
+    ports:
+      - "${LOCAL_SUPABASE_PORT:-54321}:8000"
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "wget -q --header='apikey: ${LOCAL_SUPABASE_ANON_KEY:-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ0cmFkZXNjZW50ZXItbG9jYWwiLCJleHAiOjQxMDI0NDQ4MDAsInJvbGUiOiJhbm9uIn0.dQNrQGKoS_yhkkkKvbR-C5zoAxgDV1vvMNHmfv2h-Y0}' --header='Authorization: Bearer ${LOCAL_SUPABASE_ANON_KEY:-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ0cmFkZXNjZW50ZXItbG9jYWwiLCJleHAiOjQxMDI0NDQ4MDAsInJvbGUiOiJhbm9uIn0.dQNrQGKoS_yhkkkKvbR-C5zoAxgDV1vvMNHmfv2h-Y0}' -O- http://127.0.0.1:8000/rest/v1/ >/dev/null",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    volumes:
+      - ./tradescenter-backend/supabase/nginx.local.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - public
+      - internal
+
+volumes:
+  supabase_db_data:
+
+networks:
+  public:
+    driver: bridge
+  internal:
+    driver: bridge

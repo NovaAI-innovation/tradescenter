@@ -1,0 +1,115 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: 123 Address Street, City, Province
+    - strong [ref=e4]: 24/7 Emergency Services (999) 999 9999
+    - generic [ref=e5]: f ig x in yt
+  - banner [ref=e6]:
+    - link "TC TradesCenter" [ref=e7] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e8]: TC
+      - generic [ref=e9]:
+        - strong [ref=e10]: Trades
+        - text: Center
+    - navigation "Primary navigation" [ref=e11]:
+      - link "Home" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+      - link "Get Inspired" [ref=e13] [cursor=pointer]:
+        - /url: "#"
+      - link "Contractors" [ref=e14] [cursor=pointer]:
+        - /url: "#"
+      - link "Projects" [ref=e15] [cursor=pointer]:
+        - /url: "#"
+    - button "Request a quote" [ref=e16] [cursor=pointer]
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - paragraph [ref=e20]: Local contractor proof network
+      - heading "Reliable trades, verified by real work." [level=1] [ref=e21]
+      - paragraph [ref=e22]: A social discovery platform for homeowners to browse local project proof, compare contractors, and request quotes with confidence.
+      - generic [ref=e23]:
+        - button "Explore verified work" [ref=e24] [cursor=pointer]
+        - button "Call 999-999-9999" [ref=e25] [cursor=pointer]
+    - region "TradesCenter social workspace" [ref=e26]:
+      - complementary [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]: TC
+          - generic [ref=e30]:
+            - strong [ref=e31]: TradesCenter
+            - text: Homeowner workspace
+        - link "Verified Feed" [ref=e32] [cursor=pointer]:
+          - /url: "#"
+        - link "Get Inspired" [ref=e33] [cursor=pointer]:
+          - /url: "#"
+        - link "Saved Contractors" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+        - link "Quote Requests" [ref=e35] [cursor=pointer]:
+          - /url: "#"
+        - link "Messages" [ref=e36] [cursor=pointer]:
+          - /url: "#"
+        - link "Local Service Areas" [ref=e37] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e38]:
+        - article [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: C
+            - button "What project are you planning?" [ref=e42] [cursor=pointer]
+          - generic [ref=e43]:
+            - generic [ref=e44]: Photo proof
+            - generic [ref=e45]: Project scope
+            - generic [ref=e46]: Ask for quotes
+        - article [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: AP
+            - generic [ref=e50]:
+              - strong [ref=e51]: Arrow Plumbing & HVAC
+              - text: Verified contractor · Oakville · Posted a completed project
+            - generic [ref=e52]: Verified
+          - paragraph [ref=e53]: Emergency water heater replacement with updated venting, shutoff cleanup, and a final inspection checklist attached.
+          - generic [ref=e54]:
+            - generic [ref=e56]: Before
+            - generic [ref=e58]: After
+          - generic [ref=e59]:
+            - generic [ref=e60]: License checked
+            - generic [ref=e61]: Insurance active
+            - generic [ref=e62]: 2 day turnaround
+            - generic [ref=e63]: Client reviewed
+          - generic [ref=e64]:
+            - button "Trust" [ref=e65] [cursor=pointer]
+            - button "Comment" [ref=e66] [cursor=pointer]
+            - button "Save" [ref=e67] [cursor=pointer]
+            - button "Request quote" [ref=e68] [cursor=pointer]
+        - article [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: MJ
+            - generic [ref=e72]:
+              - strong [ref=e73]: Maria J.
+              - text: Airdrie homeowner · Asked for contractor recommendations
+          - paragraph [ref=e74]: Looking for contractors with verified basement development work within 30km. Prefer companies with reviewed framing, electrical coordination, and finishing.
+          - generic [ref=e75]:
+            - strong [ref=e76]: Project request
+            - generic [ref=e77]: Basement development · Spring timeline · Quote-ready
+          - generic [ref=e78]:
+            - button "Recommend" [ref=e79] [cursor=pointer]
+            - button "Follow" [ref=e80] [cursor=pointer]
+            - button "Message" [ref=e81] [cursor=pointer]
+      - complementary [ref=e82]:
+        - article [ref=e83]:
+          - paragraph [ref=e84]: Top verified near you
+          - generic [ref=e85]:
+            - generic [ref=e86]: "01"
+            - generic [ref=e87]:
+              - strong [ref=e88]: Northline Cabinetry
+              - text: 18 verified projects
+          - generic [ref=e89]:
+            - generic [ref=e90]: "02"
+            - generic [ref=e91]:
+              - strong [ref=e92]: CR Roofing
+              - text: 11 reviewed jobs
+          - generic [ref=e93]:
+            - generic [ref=e94]: "03"
+            - generic [ref=e95]:
+              - strong [ref=e96]: A5 Development
+              - text: 9 project controls
+        - article [ref=e97]:
+          - paragraph [ref=e98]: Proof graph
+          - img [ref=e99]
+          - paragraph [ref=e108]: Client, project, media, contractor, review, and service category are tied together.
